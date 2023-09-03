@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59927fd194074c4e88c3ef823524a2b, type: 3}
+  m_Name: Wolf
+  m_EditorClassIdentifier: 
+  CreatureName: Wolf
+  CreatureType: 3
+  WildType: 0
+  Needs:
+  - ID: 0
+    CurrentValue: 100
+    MaxValue: 100
+    CriticalValue: 25
+    SatisfiedValue: 75
+    ChangePerSec: 0.2
+  - ID: 1
+    CurrentValue: 100
+    MaxValue: 100
+    CriticalValue: 25
+    SatisfiedValue: 75
+    ChangePerSec: 0.3

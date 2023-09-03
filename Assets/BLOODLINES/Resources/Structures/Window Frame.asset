@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0084df77e89af5e47896b24197fe815a, type: 3}
+  m_Name: Window Frame
+  m_EditorClassIdentifier: 
+  ID: 6
+  Name: Window Frame
+  Icon: {fileID: 21300000, guid: 847082188e643564299fa166ccfad94d, type: 3}
+  Prefab: {fileID: 5859336766643783934, guid: 97f840317906fb54cb698a04688267eb, type: 3}
+  Type: 1
+  Overlapable: 0
+  Snapable: 1
+  RequiredOverlap:
+    serializedVersion: 2
+    m_Bits: 0
+  ProhibitedOverlap:
+    serializedVersion: 2
+    m_Bits: 3072
+  OverlapCheckBox: {x: 3.15, y: 2.9, z: 0.2}
+  OverlapCheckboxCenter: {x: 0, y: 1.48, z: 0}
+  OverlapCheckBoxScale: 0.8
+  AllowedStructures:
+  - {fileID: 11400000, guid: f4f11a3f49515b1439bb6375664bee7e, type: 2}
+  - {fileID: 11400000, guid: ea49b79ebf86d14408592a49f1aa6246, type: 2}
+  Rotations:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 90, z: 0}
+  - {x: 0, y: 180, z: 0}
+  - {x: 0, y: 270, z: 0}
+  requiredMaterials: []

@@ -1,0 +1,1046 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff8de7f54b283504882be60d8b0f8248, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  Platform: 0
+  TargetFPS: 0
+  SaveInterval: 360
+  CoinsPerScore: 25
+  ScorePerKill: 50
+  ScorePerHeadshot: 25
+  InventoryItems:
+  - ItemInfo: {fileID: 11400000, guid: ecd8054317c5fe448ad8fc9fa54509c4, type: 2}
+    Dropable: 1
+    AllowMultiple: 0
+    DestroyOnUse: 0
+    DestroyOneOnUse: 0
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: 902e0aa8d0c49dc4b90f781e3f6e6909, type: 2}
+    Dropable: 1
+    AllowMultiple: 0
+    DestroyOnUse: 0
+    DestroyOneOnUse: 0
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: 7828f55a4bff2434c8af0918b87f71dc, type: 2}
+    Dropable: 1
+    AllowMultiple: 0
+    DestroyOnUse: 0
+    DestroyOneOnUse: 0
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: dfae8c695b13ad74cbdd8dae607f60f6, type: 2}
+    Dropable: 1
+    AllowMultiple: 0
+    DestroyOnUse: 0
+    DestroyOneOnUse: 0
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: ac12f267dcdf5744797b9717f3c25225, type: 2}
+    Dropable: 1
+    AllowMultiple: 0
+    DestroyOnUse: 0
+    DestroyOneOnUse: 0
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: 0a2a476eb380f31449cd0a95dbc66130, type: 2}
+    Dropable: 1
+    AllowMultiple: 0
+    DestroyOnUse: 1
+    DestroyOneOnUse: 0
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: c8fa7969879c6ae4eb72fdd70c4121fb, type: 2}
+    Dropable: 1
+    AllowMultiple: 1
+    DestroyOnUse: 0
+    DestroyOneOnUse: 1
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: b0ff79c3ef3491b4686bada72f446108, type: 2}
+    Dropable: 1
+    AllowMultiple: 1
+    DestroyOnUse: 0
+    DestroyOneOnUse: 1
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: 2f981316ff9d2ba41bf73fe9466f84f4, type: 2}
+    Dropable: 1
+    AllowMultiple: 1
+    DestroyOnUse: 0
+    DestroyOneOnUse: 1
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: df7cf0a686cc6a24cb26787993386e79, type: 2}
+    Dropable: 1
+    AllowMultiple: 1
+    DestroyOnUse: 0
+    DestroyOneOnUse: 1
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: cb4f9c18fa905a647b8d5956ad201748, type: 2}
+    Dropable: 1
+    AllowMultiple: 1
+    DestroyOnUse: 0
+    DestroyOneOnUse: 1
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: 0a44b7de2841a5046ac55cdc09781b8c, type: 2}
+    Dropable: 1
+    AllowMultiple: 1
+    DestroyOnUse: 0
+    DestroyOneOnUse: 0
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: 5890377ab1c4c384a9622d9602c17b9c, type: 2}
+    Dropable: 1
+    AllowMultiple: 0
+    DestroyOnUse: 0
+    DestroyOneOnUse: 0
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: 3672d3f304ec3cc498ad3f199ebc1685, type: 2}
+    Dropable: 1
+    AllowMultiple: 1
+    DestroyOnUse: 0
+    DestroyOneOnUse: 1
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: ad5a9b519255d43498946107f1f88fc0, type: 2}
+    Dropable: 1
+    AllowMultiple: 0
+    DestroyOnUse: 1
+    DestroyOneOnUse: 0
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: 7e3a96059e6053b40a2d1e8204934d97, type: 2}
+    Dropable: 1
+    AllowMultiple: 0
+    DestroyOnUse: 1
+    DestroyOneOnUse: 0
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: dec605e2154904440853b248ae81242b, type: 2}
+    Dropable: 1
+    AllowMultiple: 0
+    DestroyOnUse: 1
+    DestroyOneOnUse: 0
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: 804690ddc00e6774cb5d83b56d3eceee, type: 2}
+    Dropable: 1
+    AllowMultiple: 0
+    DestroyOnUse: 1
+    DestroyOneOnUse: 0
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: f2ca68adad8b02f428fbb54bd029cc2e, type: 2}
+    Dropable: 1
+    AllowMultiple: 0
+    DestroyOnUse: 1
+    DestroyOneOnUse: 0
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  - ItemInfo: {fileID: 11400000, guid: 0426047f46a28cc4085bef87b163ecaf, type: 2}
+    Dropable: 1
+    AllowMultiple: 0
+    DestroyOnUse: 1
+    DestroyOneOnUse: 0
+    EventsOnUse:
+      m_PersistentCalls:
+        m_Calls: []
+    UseSounds: []
+    DropSounds: []
+    PickupSounds: []
+  CraftItems:
+  - ItemResult:
+      Item: {fileID: 11400000, guid: ecd8054317c5fe448ad8fc9fa54509c4, type: 2}
+      Amount: 1
+    ItemIconColor: {r: 1, g: 1, b: 1, a: 1}
+    Ingredients:
+    - Item: {fileID: 11400000, guid: 902e0aa8d0c49dc4b90f781e3f6e6909, type: 2}
+      Amount: 1
+    - Item: {fileID: 11400000, guid: ac12f267dcdf5744797b9717f3c25225, type: 2}
+      Amount: 1
+    CraftTime: 7
+  - ItemResult:
+      Item: {fileID: 11400000, guid: b0ff79c3ef3491b4686bada72f446108, type: 2}
+      Amount: 1
+    ItemIconColor: {r: 1, g: 1, b: 1, a: 1}
+    Ingredients:
+    - Item: {fileID: 11400000, guid: c8fa7969879c6ae4eb72fdd70c4121fb, type: 2}
+      Amount: 2
+    - Item: {fileID: 11400000, guid: df7cf0a686cc6a24cb26787993386e79, type: 2}
+      Amount: 1
+    - Item: {fileID: 11400000, guid: 2f981316ff9d2ba41bf73fe9466f84f4, type: 2}
+      Amount: 1
+    CraftTime: 5
+  - ItemResult:
+      Item: {fileID: 11400000, guid: 0a44b7de2841a5046ac55cdc09781b8c, type: 2}
+      Amount: 90
+    ItemIconColor: {r: 1, g: 1, b: 1, a: 1}
+    Ingredients:
+    - Item: {fileID: 11400000, guid: ac12f267dcdf5744797b9717f3c25225, type: 2}
+      Amount: 1
+    - Item: {fileID: 11400000, guid: 2f981316ff9d2ba41bf73fe9466f84f4, type: 2}
+      Amount: 1
+    CraftTime: 5
+  - ItemResult:
+      Item: {fileID: 11400000, guid: cb4f9c18fa905a647b8d5956ad201748, type: 2}
+      Amount: 90
+    ItemIconColor: {r: 1, g: 1, b: 1, a: 1}
+    Ingredients:
+    - Item: {fileID: 11400000, guid: c8fa7969879c6ae4eb72fdd70c4121fb, type: 2}
+      Amount: 1
+    - Item: {fileID: 11400000, guid: df7cf0a686cc6a24cb26787993386e79, type: 2}
+      Amount: 1
+    CraftTime: 5
+  WearableItems:
+  - {fileID: 11400000, guid: ad5a9b519255d43498946107f1f88fc0, type: 2}
+  - {fileID: 11400000, guid: 7e3a96059e6053b40a2d1e8204934d97, type: 2}
+  - {fileID: 11400000, guid: dec605e2154904440853b248ae81242b, type: 2}
+  - {fileID: 11400000, guid: 804690ddc00e6774cb5d83b56d3eceee, type: 2}
+  - {fileID: 11400000, guid: f2ca68adad8b02f428fbb54bd029cc2e, type: 2}
+  - {fileID: 11400000, guid: 0426047f46a28cc4085bef87b163ecaf, type: 2}
+  Zombies:
+  - {fileID: 896110732603099075, guid: b4bbd77d0087c2c42b364274c62f2a78, type: 3}
+  - {fileID: 7578151827813048441, guid: f90af26de8f80824a8eccbf0b5dd3af7, type: 3}
+  - {fileID: 3564154283792779602, guid: 4d3283358e5cc314185661ba95deb5c6, type: 3}
+  - {fileID: 8475304628343717269, guid: e33d64aa85268534b8da8d8973699f7d, type: 3}
+  - {fileID: 7133363416538044922, guid: c062524469b1bf042aa4b879e6828a73, type: 3}
+  - {fileID: 8624198061277551867, guid: 6f17f2ecad83af0469b04b241a0bca5b, type: 3}
+  - {fileID: 3460080414696321895, guid: be0e10b86a5022945839593d0327e44d, type: 3}
+  - {fileID: 2166716493292082410, guid: 0d927856583296944a4467cf4d3f72fc, type: 3}
+  - {fileID: 31964990015339210, guid: 289332dc672b10e4cbafa17f06b77e8c, type: 3}
+  - {fileID: 3756706041499971296, guid: f9aa38db11ad5ef42b07606de86b3d84, type: 3}
+  - {fileID: 6346166049013178538, guid: ee618bb8ec497d4409d57aa1dc6fe3c0, type: 3}
+  Needs:
+  - ID: 0
+    Name: Hunger
+    SatisfyTags:
+    - HungerArea
+  - ID: 1
+    Name: Thirst
+    SatisfyTags:
+    - ThirstArea
+  Levels:
+  - Name: LV.1
+    Level: 1
+    RequiredExp: 0
+    RewaredCoins: 100
+    RewaredCash: 50
+    RewaredTokens: 25
+    Icon: {fileID: 21300000, guid: f009b16282249ed4c9e158227e301d35, type: 3}
+  - Name: LV.2
+    Level: 2
+    RequiredExp: 120
+    RewaredCoins: 105
+    RewaredCash: 55
+    RewaredTokens: 30
+    Icon: {fileID: 21300000, guid: f009b16282249ed4c9e158227e301d35, type: 3}
+  - Name: LV.3
+    Level: 3
+    RequiredExp: 350
+    RewaredCoins: 250
+    RewaredCash: 70
+    RewaredTokens: 50
+    Icon: {fileID: 21300000, guid: f009b16282249ed4c9e158227e301d35, type: 3}
+  - Name: LV.4
+    Level: 4
+    RequiredExp: 500
+    RewaredCoins: 320
+    RewaredCash: 120
+    RewaredTokens: 70
+    Icon: {fileID: 21300000, guid: f009b16282249ed4c9e158227e301d35, type: 3}
+  - Name: LV.5
+    Level: 5
+    RequiredExp: 720
+    RewaredCoins: 480
+    RewaredCash: 240
+    RewaredTokens: 125
+    Icon: {fileID: 21300000, guid: f009b16282249ed4c9e158227e301d35, type: 3}
+  - Name: LV.6
+    Level: 6
+    RequiredExp: 980
+    RewaredCoins: 600
+    RewaredCash: 320
+    RewaredTokens: 150
+    Icon: {fileID: 21300000, guid: f009b16282249ed4c9e158227e301d35, type: 3}
+  - Name: LV.7
+    Level: 7
+    RequiredExp: 1200
+    RewaredCoins: 720
+    RewaredCash: 400
+    RewaredTokens: 170
+    Icon: {fileID: 21300000, guid: f009b16282249ed4c9e158227e301d35, type: 3}
+  - Name: LV.8
+    Level: 8
+    RequiredExp: 1600
+    RewaredCoins: 840
+    RewaredCash: 450
+    RewaredTokens: 200
+    Icon: {fileID: 21300000, guid: f009b16282249ed4c9e158227e301d35, type: 3}
+  - Name: LV.9
+    Level: 9
+    RequiredExp: 2000
+    RewaredCoins: 900
+    RewaredCash: 500
+    RewaredTokens: 220
+    Icon: {fileID: 21300000, guid: f009b16282249ed4c9e158227e301d35, type: 3}
+  - Name: LV.10
+    Level: 10
+    RequiredExp: 2800
+    RewaredCoins: 1200
+    RewaredCash: 720
+    RewaredTokens: 480
+    Icon: {fileID: 21300000, guid: f009b16282249ed4c9e158227e301d35, type: 3}
+  Quests:
+  - {fileID: 11400000, guid: ee53d5f87158cf44fb3630930c65a90b, type: 2}
+  - {fileID: 11400000, guid: 6d8038ef473fe3a4a91c546e8bd7a6cd, type: 2}
+  - {fileID: 11400000, guid: 1b5667ba5e8e26c45b23c2cd6248d1d3, type: 2}
+  - {fileID: 11400000, guid: c74c3ccdcb4bd31458e170e1fdac54a3, type: 2}
+  - {fileID: 11400000, guid: f6f66c1fe66b7cd40b674e1d754e3be8, type: 2}
+  Weapons:
+  - {fileID: 11400000, guid: ecd8054317c5fe448ad8fc9fa54509c4, type: 2}
+  - {fileID: 11400000, guid: 902e0aa8d0c49dc4b90f781e3f6e6909, type: 2}
+  - {fileID: 11400000, guid: 7828f55a4bff2434c8af0918b87f71dc, type: 2}
+  - {fileID: 11400000, guid: dfae8c695b13ad74cbdd8dae607f60f6, type: 2}
+  - {fileID: 11400000, guid: ac12f267dcdf5744797b9717f3c25225, type: 2}
+  - {fileID: 11400000, guid: 5890377ab1c4c384a9622d9602c17b9c, type: 2}
+  SurfaceTags:
+  - surfaceTag: metal
+    SurfacePrefab:
+    - {fileID: 5193637792417095511, guid: d2cd73a97da80c7438b2d471ce40859d, type: 3}
+    Footsteps:
+    - {fileID: 8300000, guid: c6ed4d9fcebc8ba4a9074488c05b40e0, type: 3}
+  - surfaceTag: rock
+    SurfacePrefab:
+    - {fileID: 612843016392227099, guid: ba6d158704d764f48bb896ac6f8ffcac, type: 3}
+    Footsteps:
+    - {fileID: 8300000, guid: c6ed4d9fcebc8ba4a9074488c05b40e0, type: 3}
+  - surfaceTag: wood
+    SurfacePrefab:
+    - {fileID: 612843016392227099, guid: ba6d158704d764f48bb896ac6f8ffcac, type: 3}
+    Footsteps:
+    - {fileID: 8300000, guid: c6ed4d9fcebc8ba4a9074488c05b40e0, type: 3}
+  - surfaceTag: terrian
+    SurfacePrefab:
+    - {fileID: 612843016392227099, guid: ba6d158704d764f48bb896ac6f8ffcac, type: 3}
+    Footsteps:
+    - {fileID: 8300000, guid: bf90dca5c3a4571478eca1e356427303, type: 3}
+  - surfaceTag: untagged
+    SurfacePrefab:
+    - {fileID: 5193637792417095511, guid: d2cd73a97da80c7438b2d471ce40859d, type: 3}
+    Footsteps:
+    - {fileID: 8300000, guid: bf90dca5c3a4571478eca1e356427303, type: 3}
+  BuildStructures:
+  - {fileID: 11400000, guid: 13b1d10f760fca7418828b82a13448ba, type: 2}
+  - {fileID: 11400000, guid: 46195bd5663e6fc40a1d25b856458318, type: 2}
+  - {fileID: 11400000, guid: ea49b79ebf86d14408592a49f1aa6246, type: 2}
+  - {fileID: 11400000, guid: cc90a302dc2014f4f921878901a2c1f0, type: 2}
+  - {fileID: 11400000, guid: f4f11a3f49515b1439bb6375664bee7e, type: 2}
+  - {fileID: 11400000, guid: 43c0664b96f40ad40bc0c224cd8f835c, type: 2}
+  - {fileID: 11400000, guid: 8fcc1126202e7a24fab23ff83e0e3cd6, type: 2}
+  - {fileID: 11400000, guid: 3ca9802b6cfd9ee4b837d17ae30750da, type: 2}
+  Player: {fileID: 3039890202917209779, guid: c17789758782a8a4ea7b1949a9d9745a, type: 3}
+  Diseases:
+  - Name: Flu
+    Description: 
+    ID: 0
+    Stages:
+    - Level: 0
+      StageDuration: 3600
+      TargetBloodPressureTop: 0
+      TargetBloodPressureBottom: 0
+      TargetBodyTemperature: 37.1
+      TargetHeartRate: 0
+      WaterDrainPerSecond: 0
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0
+      ExhustionIncreasePerSecond: 0
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 10800
+      AcceptedMedicines: 
+    - Level: 1
+      StageDuration: 7200
+      TargetBloodPressureTop: 0
+      TargetBloodPressureBottom: 0
+      TargetBodyTemperature: 37.9
+      TargetHeartRate: 0
+      WaterDrainPerSecond: 0
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0
+      ExhustionIncreasePerSecond: 0.0001
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 4
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 9000
+      AcceptedMedicines: 
+    - Level: 2
+      StageDuration: 7200
+      TargetBloodPressureTop: 0
+      TargetBloodPressureBottom: 0
+      TargetBodyTemperature: 38.7
+      TargetHeartRate: 0
+      WaterDrainPerSecond: 0.005
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0
+      ExhustionIncreasePerSecond: 0.0002
+      DizzinessChance: 3
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 7
+      CoughLevel: 1
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 16200
+      AcceptedMedicines: 
+    - Level: 3
+      StageDuration: 99999
+      TargetBloodPressureTop: 0
+      TargetBloodPressureBottom: 0
+      TargetBodyTemperature: 41.2
+      TargetHeartRate: 0
+      WaterDrainPerSecond: 0.01
+      FoodDrainPerSecond: 0.005
+      StaminaDrainPerSecond: 0
+      ExhustionIncreasePerSecond: 0.00035
+      DizzinessChance: 5
+      DizzinessTime: 0
+      BlackoutChance: 3
+      BlackoutTime: 0
+      CoughChance: 9
+      CoughLevel: 2
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 1
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 3600
+      AcceptedMedicines: 
+  - Name: Food Poisoning
+    Description: 
+    ID: 1
+    Stages:
+    - Level: 0
+      StageDuration: 3600
+      TargetBloodPressureTop: 0
+      TargetBloodPressureBottom: 0
+      TargetBodyTemperature: 36.9
+      TargetHeartRate: 0
+      WaterDrainPerSecond: 0
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0
+      ExhustionIncreasePerSecond: 0
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 10800
+      AcceptedMedicines: 
+    - Level: 1
+      StageDuration: 3600
+      TargetBloodPressureTop: 0
+      TargetBloodPressureBottom: 0
+      TargetBodyTemperature: 37.2
+      TargetHeartRate: 0
+      WaterDrainPerSecond: 0
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0
+      ExhustionIncreasePerSecond: 0.00005
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 5400
+      AcceptedMedicines: 
+    - Level: 2
+      StageDuration: 7200
+      TargetBloodPressureTop: 0
+      TargetBloodPressureBottom: 0
+      TargetBodyTemperature: 37.9
+      TargetHeartRate: 0
+      WaterDrainPerSecond: 0.0025
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0
+      ExhustionIncreasePerSecond: 0.0001
+      DizzinessChance: 3
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 7
+      CoughLevel: 1
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 1
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 9000
+      AcceptedMedicines: 
+    - Level: 3
+      StageDuration: 99999
+      TargetBloodPressureTop: 0
+      TargetBloodPressureBottom: 0
+      TargetBodyTemperature: 38.6
+      TargetHeartRate: 0
+      WaterDrainPerSecond: 0.01
+      FoodDrainPerSecond: 0.005
+      StaminaDrainPerSecond: 0
+      ExhustionIncreasePerSecond: 0.00035
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 1
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 7200
+      AcceptedMedicines: 
+  - Name: Blood Poisoning
+    Description: 
+    ID: 2
+    Stages:
+    - Level: 1
+      StageDuration: 10800
+      TargetBloodPressureTop: 154
+      TargetBloodPressureBottom: 83
+      TargetBodyTemperature: 39.6
+      TargetHeartRate: 95
+      WaterDrainPerSecond: 0
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0.03
+      ExhustionIncreasePerSecond: 0.0004
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 2
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 3600
+      AcceptedMedicines: 
+    - Level: 2
+      StageDuration: 11000
+      TargetBloodPressureTop: 196
+      TargetBloodPressureBottom: 98
+      TargetBodyTemperature: 40.1
+      TargetHeartRate: 126
+      WaterDrainPerSecond: 0.01
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0.05
+      ExhustionIncreasePerSecond: 0.0006
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 5
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 1
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 1
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 7200
+      AcceptedMedicines: 
+    - Level: 3
+      StageDuration: 99999
+      TargetBloodPressureTop: 204
+      TargetBloodPressureBottom: 112
+      TargetBodyTemperature: 41.6
+      TargetHeartRate: 148
+      WaterDrainPerSecond: 0.015
+      FoodDrainPerSecond: 0.008
+      StaminaDrainPerSecond: 0.1
+      ExhustionIncreasePerSecond: 0.00085
+      DizzinessChance: 5
+      DizzinessTime: 0
+      BlackoutChance: 2
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 1
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 7200
+      AcceptedMedicines: 
+  - Name: Venom Poisoning
+    Description: 
+    ID: 3
+    Stages:
+    - Level: 1
+      StageDuration: 10800
+      TargetBloodPressureTop: 154
+      TargetBloodPressureBottom: 83
+      TargetBodyTemperature: 39.6
+      TargetHeartRate: 95
+      WaterDrainPerSecond: 0
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0.03
+      ExhustionIncreasePerSecond: 0.0004
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 2
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 3600
+      AcceptedMedicines: 
+    - Level: 2
+      StageDuration: 11000
+      TargetBloodPressureTop: 196
+      TargetBloodPressureBottom: 98
+      TargetBodyTemperature: 40.1
+      TargetHeartRate: 126
+      WaterDrainPerSecond: 0.01
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0.05
+      ExhustionIncreasePerSecond: 0.0006
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 5
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 1
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 1
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 7200
+      AcceptedMedicines: 
+    - Level: 3
+      StageDuration: 99999
+      TargetBloodPressureTop: 204
+      TargetBloodPressureBottom: 112
+      TargetBodyTemperature: 41.6
+      TargetHeartRate: 148
+      WaterDrainPerSecond: 0.015
+      FoodDrainPerSecond: 0.008
+      StaminaDrainPerSecond: 0.1
+      ExhustionIncreasePerSecond: 0.00085
+      DizzinessChance: 5
+      DizzinessTime: 0
+      BlackoutChance: 2
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 1
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 7200
+      AcceptedMedicines: 
+  - Name: Angina
+    Description: 
+    ID: 4
+    Stages:
+    - Level: 0
+      StageDuration: 10800
+      TargetBloodPressureTop: 0
+      TargetBloodPressureBottom: 0
+      TargetBodyTemperature: 38
+      TargetHeartRate: 0
+      WaterDrainPerSecond: 0
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0
+      ExhustionIncreasePerSecond: 0.0015
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 3
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 7200
+      AcceptedMedicines: 
+    - Level: 1
+      StageDuration: 15600
+      TargetBloodPressureTop: 0
+      TargetBloodPressureBottom: 0
+      TargetBodyTemperature: 38.9
+      TargetHeartRate: 0
+      WaterDrainPerSecond: 0
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0
+      ExhustionIncreasePerSecond: 0.025
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 5
+      CoughLevel: 1
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 7200
+      AcceptedMedicines: 
+    - Level: 2
+      StageDuration: 16200
+      TargetBloodPressureTop: 182
+      TargetBloodPressureBottom: 120
+      TargetBodyTemperature: 39.1
+      TargetHeartRate: 92
+      WaterDrainPerSecond: 0.005
+      FoodDrainPerSecond: 0.007
+      StaminaDrainPerSecond: 0
+      ExhustionIncreasePerSecond: 0.0035
+      DizzinessChance: 3
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 8
+      CoughLevel: 2
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 1
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 3600
+      AcceptedMedicines: 
+    - Level: 3
+      StageDuration: 99999
+      TargetBloodPressureTop: 203
+      TargetBloodPressureBottom: 180
+      TargetBodyTemperature: 41.1
+      TargetHeartRate: 130
+      WaterDrainPerSecond: 0.015
+      FoodDrainPerSecond: 0.05
+      StaminaDrainPerSecond: 0
+      ExhustionIncreasePerSecond: 0.0042
+      DizzinessChance: 7
+      DizzinessTime: 0
+      BlackoutChance: 5
+      BlackoutTime: 0
+      CoughChance: 8
+      CoughLevel: 2
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 1
+      CannotRun: 1
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 7200
+      AcceptedMedicines: 
+  - Name: Hyperthermia
+    Description: 
+    ID: 5
+    Stages:
+    - Level: 0
+      StageDuration: 3600
+      TargetBloodPressureTop: 0
+      TargetBloodPressureBottom: 0
+      TargetBodyTemperature: 37.5
+      TargetHeartRate: 76
+      WaterDrainPerSecond: 0
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0.03
+      ExhustionIncreasePerSecond: 0
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 3600
+      AcceptedMedicines: 
+    - Level: 2
+      StageDuration: 3600
+      TargetBloodPressureTop: 132
+      TargetBloodPressureBottom: 78
+      TargetBodyTemperature: 38.3
+      TargetHeartRate: 85
+      WaterDrainPerSecond: 0
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0.05
+      ExhustionIncreasePerSecond: 0.0078
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 3600
+      AcceptedMedicines: 
+    - Level: 3
+      StageDuration: 99999
+      TargetBloodPressureTop: 152
+      TargetBloodPressureBottom: 101
+      TargetBodyTemperature: 39.9
+      TargetHeartRate: 108
+      WaterDrainPerSecond: 0
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0.05
+      ExhustionIncreasePerSecond: 0.0106
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 1
+      CannotRun: 1
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 3600
+      AcceptedMedicines: 
+  - Name: Hypothermia
+    Description: 
+    ID: 6
+    Stages:
+    - Level: 0
+      StageDuration: 3600
+      TargetBloodPressureTop: 0
+      TargetBloodPressureBottom: 0
+      TargetBodyTemperature: 35.9
+      TargetHeartRate: 52
+      WaterDrainPerSecond: 0
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0.03
+      ExhustionIncreasePerSecond: 0.0035
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 0
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 3600
+      AcceptedMedicines: 
+    - Level: 2
+      StageDuration: 3600
+      TargetBloodPressureTop: 0
+      TargetBloodPressureBottom: 0
+      TargetBodyTemperature: 35.1
+      TargetHeartRate: 41
+      WaterDrainPerSecond: 0
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0.05
+      ExhustionIncreasePerSecond: 0.0124
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 0
+      CannotRun: 1
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 3600
+      AcceptedMedicines: 
+    - Level: 3
+      StageDuration: 99999
+      TargetBloodPressureTop: 91
+      TargetBloodPressureBottom: 52
+      TargetBodyTemperature: 33.4
+      TargetHeartRate: 33
+      WaterDrainPerSecond: 0
+      FoodDrainPerSecond: 0
+      StaminaDrainPerSecond: 0.05
+      ExhustionIncreasePerSecond: 0.0328
+      DizzinessChance: 0
+      DizzinessTime: 0
+      BlackoutChance: 0
+      BlackoutTime: 0
+      CoughChance: 0
+      CoughLevel: 0
+      ChanceOfDeath: 0
+      SelfHealChance: 0
+      CannotEat: 1
+      CannotRun: 1
+      WillStartAt: 0
+      WillEndAt: 0
+      VitalsTargetSeconds: 3600
+      AcceptedMedicines: 
+  Medicines:
+  - Name: Betadin
+    Description: Something to clean injures and prevent blood poisoning
+    ID: 0
+    SafeConsumeLimit: 5
+    OverdoseDeathChance: 40
+    ConsumeConuntEffect:
+    - TreatmentDuration: 120
+      DiseaseMultiplier: 0.25

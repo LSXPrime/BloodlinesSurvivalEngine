@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0084df77e89af5e47896b24197fe815a, type: 3}
+  m_Name: Window
+  m_EditorClassIdentifier: 
+  ID: 7
+  Name: Window
+  Icon: {fileID: 21300000, guid: 4eb9d9a30385a73469d3750147652263, type: 3}
+  Prefab: {fileID: 9043868871910358714, guid: 3a985b6ad7d674946b50a7db53d5dd6f, type: 3}
+  Type: 3
+  Overlapable: 0
+  Snapable: 1
+  RequiredOverlap:
+    serializedVersion: 2
+    m_Bits: 0
+  ProhibitedOverlap:
+    serializedVersion: 2
+    m_Bits: 3072
+  OverlapCheckBox: {x: 2.22, y: 1.3, z: 0.15}
+  OverlapCheckboxCenter: {x: 0, y: 0.65, z: 0}
+  OverlapCheckBoxScale: 0.8
+  AllowedStructures: []
+  Rotations:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 90, z: 0}
+  - {x: 0, y: 180, z: 0}
+  - {x: 0, y: 270, z: 0}
+  requiredMaterials: []

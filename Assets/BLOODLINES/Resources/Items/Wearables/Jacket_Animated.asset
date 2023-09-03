@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15d5ef255530e9b4ea7c3ce12480f4ed, type: 3}
+  m_Name: Jacket_Animated
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 0}
+  Name: Jacket
+  Description: RYAN Jacket
+  GlobalID: 17
+  Amount: 1
+  HavePrice: 1
+  price: 700
+  Weight: 1.5
+  Prefab: {fileID: 0}
+  DropPrefab: {fileID: 5158642495277699815, guid: f648115ceca022940b4c920342ef541c,
+    type: 3}
+  Currency: 0
+  RequireBodyPart: 0
+  RequiredBodyPart: 0
+  Type: 3
+  InventoryType: 2
+  ammoType: 0
+  wearableType: 2
+  isSpoiled: 0
+  PoisonChance: 0
+  DiseaseID: 0
+  isMedicine: 0
+  MedicineID: 0
+  ConsumableEffect:
+    defaultLifeBehaviour: 1
+    PickupTime: 0
+    Stamina: 0
+    Thirst: 0
+    Hunger: 0
+    AffectedBoneHealth: 0
+    BandageToStopBleeding: 0
+    VehicleHealth: 0
+    Fuel: 0

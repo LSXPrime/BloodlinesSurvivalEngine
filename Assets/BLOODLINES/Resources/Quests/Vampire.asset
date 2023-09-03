@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59fc0403597a9714bb2ab2182e2b106a, type: 3}
+  m_Name: Vampire
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 21300000, guid: c99a36d11b0a38148afc4e63aa75a873, type: 3}
+  Type: 1
+  questName: Vampire
+  QuestID: 3
+  Description: Kill 100 Zombie
+  RequiredItemsCount: 100
+  RequiredItemsToCollect: []
+  RewardCoins: 2516
+  RewardCash: 1024
+  RewardTokens: 512
+  RewardExp: 4096
+  RewardItems:
+  - {fileID: 11400000, guid: 0a44b7de2841a5046ac55cdc09781b8c, type: 2}
+  - {fileID: 11400000, guid: b0ff79c3ef3491b4686bada72f446108, type: 2}
+  - {fileID: 11400000, guid: cb4f9c18fa905a647b8d5956ad201748, type: 2}

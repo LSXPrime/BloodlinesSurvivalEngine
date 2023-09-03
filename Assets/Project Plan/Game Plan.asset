@@ -1,0 +1,1551 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8121775650135160127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ed341661cc73448b9dfacf9e42428, type: 3}
+  m_Name: Step
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 88, y: 1672}
+  ports:
+    keys:
+    - input
+    - Steps
+    - Steps 0
+    - Steps 1
+    - Steps 2
+    - Steps 3
+    - Steps 4
+    - Steps 5
+    values:
+    - _fieldName: input
+      _node: {fileID: -8121775650135160127}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Milestones 4
+        node: {fileID: 2932559336703473255}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps
+      _node: {fileID: -8121775650135160127}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps 0
+      _node: {fileID: -8121775650135160127}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 1
+      _node: {fileID: -8121775650135160127}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 2
+      _node: {fileID: -8121775650135160127}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 3
+      _node: {fileID: -8121775650135160127}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 4
+      _node: {fileID: -8121775650135160127}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 5972127110405487265}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 5
+      _node: {fileID: -8121775650135160127}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Steps:
+  - Step: Check All Weapon Types
+    Done: 0
+  - Step: Check Targeting Types
+    Done: 0
+  - Step: Check Fire Types
+    Done: 1
+  - Step: Check Scope Mechanics
+    Done: 0
+  - Step: Check IK Mechanics
+    Done: 0
+  - Step: Check Pickup
+    Done: 0
+--- !u!114 &-6446871117330166441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ed341661cc73448b9dfacf9e42428, type: 3}
+  m_Name: Step
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 472, y: -456}
+  ports:
+    keys:
+    - input
+    - Steps
+    - Steps 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -6446871117330166441}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Steps 3
+        node: {fileID: 8205141740979095100}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps
+      _node: {fileID: -6446871117330166441}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps 0
+      _node: {fileID: -6446871117330166441}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Steps:
+  - Step: Fix Weird AI Behavior
+    Done: 0
+--- !u!114 &-6415300613783557066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ed341661cc73448b9dfacf9e42428, type: 3}
+  m_Name: Step
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 88, y: 2408}
+  ports:
+    keys:
+    - input
+    - Steps
+    - Steps 0
+    - Steps 1
+    - Steps 2
+    - Steps 3
+    - Steps 4
+    - Steps 5
+    - Steps 6
+    - Steps 7
+    values:
+    - _fieldName: input
+      _node: {fileID: -6415300613783557066}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Milestones 5
+        node: {fileID: 2932559336703473255}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps
+      _node: {fileID: -6415300613783557066}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps 0
+      _node: {fileID: -6415300613783557066}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 1
+      _node: {fileID: -6415300613783557066}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 2
+      _node: {fileID: -6415300613783557066}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 3
+      _node: {fileID: -6415300613783557066}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 4
+      _node: {fileID: -6415300613783557066}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 5
+      _node: {fileID: -6415300613783557066}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 6
+      _node: {fileID: -6415300613783557066}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 7
+      _node: {fileID: -6415300613783557066}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Steps:
+  - Step: Check Bank
+    Done: 0
+  - Step: Check Doors
+    Done: 0
+  - Step: Check Spawners
+    Done: 0
+  - Step: Check NPCs
+    Done: 0
+  - Step: Check Satisfy Areas
+    Done: 1
+  - Step: Check Sleeping Areas
+    Done: 0
+  - Step: Check Swimming Areas
+    Done: 0
+  - Step: Check TimeOfDay
+    Done: 0
+--- !u!114 &-5945013946739786773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab22a863595c84648990fd330c4faa20, type: 3}
+  m_Name: Plan
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 104, y: -2232}
+  ports:
+    keys:
+    - input
+    - Milestones
+    - Milestones 0
+    values:
+    - _fieldName: input
+      _node: {fileID: -5945013946739786773}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Milestones 0
+        node: {fileID: 2597672312952574560}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Milestones
+      _node: {fileID: -5945013946739786773}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Milestones 0
+      _node: {fileID: -5945013946739786773}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Plan: Player Behavior
+  Milestones:
+  - Step: Add more attacks & add better character Turn rotation
+    Done: 0
+  Completed: 0
+--- !u!114 &-3392098824972671893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ed341661cc73448b9dfacf9e42428, type: 3}
+  m_Name: Step
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 88, y: 632}
+  ports:
+    keys:
+    - input
+    - Steps
+    - Steps 0
+    - Steps 1
+    - Steps 2
+    - Steps 3
+    - Steps 4
+    - Steps 5
+    - Steps 6
+    - Steps 7
+    - Steps 8
+    values:
+    - _fieldName: input
+      _node: {fileID: -3392098824972671893}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Milestones 3
+        node: {fileID: 2932559336703473255}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps
+      _node: {fileID: -3392098824972671893}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps 0
+      _node: {fileID: -3392098824972671893}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 1
+      _node: {fileID: -3392098824972671893}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 3534904127742174092}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 2
+      _node: {fileID: -3392098824972671893}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 3
+      _node: {fileID: -3392098824972671893}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 4
+      _node: {fileID: -3392098824972671893}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 5
+      _node: {fileID: -3392098824972671893}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 6
+      _node: {fileID: -3392098824972671893}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 7
+      _node: {fileID: -3392098824972671893}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 8
+      _node: {fileID: -3392098824972671893}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Steps:
+  - Step: 'Check PlayerController & Fix Movement glitches
+
+
+
+
+
+'
+    Done: 0
+  - Step: 'Check PlayerMountSystem
+
+
+
+
+
+'
+    Done: 1
+  - Step: 'Check PlayerQuestSystem
+
+
+
+
+
+'
+    Done: 0
+  - Step: 'Check CraftManager
+
+
+
+
+
+'
+    Done: 0
+  - Step: 'Check HealthSystem & HitSpot
+
+
+
+
+
+'
+    Done: 0
+  - Step: 'Check InventoryManager
+
+
+
+
+
+'
+    Done: 0
+  - Step: 'Check WearableItem
+
+
+
+
+
+'
+    Done: 0
+  - Step: 'Check PlayerStatus
+
+
+
+
+
+'
+    Done: 0
+  - Step: 'Check PlayerBuildingSystem
+
+
+
+
+
+'
+    Done: 0
+--- !u!114 &-1397265257111878176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ed341661cc73448b9dfacf9e42428, type: 3}
+  m_Name: Step
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 88, y: -8}
+  ports:
+    keys:
+    - input
+    - Steps
+    - Steps 0
+    - Steps 1
+    - Steps 2
+    - Steps 3
+    - Steps 4
+    values:
+    - _fieldName: input
+      _node: {fileID: -1397265257111878176}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Milestones 2
+        node: {fileID: 2932559336703473255}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps
+      _node: {fileID: -1397265257111878176}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps 0
+      _node: {fileID: -1397265257111878176}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 1
+      _node: {fileID: -1397265257111878176}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 2
+      _node: {fileID: -1397265257111878176}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 3
+      _node: {fileID: -1397265257111878176}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 8140037929559588169}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 4
+      _node: {fileID: -1397265257111878176}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 4258045629751115135}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Steps:
+  - Step: 'Check AccountInfo & Check Saving and Loading System
+
+
+
+
+'
+    Done: 0
+  - Step: 'Check BloodlinesManager & Editor Scripts
+
+
+
+
+
+
+'
+    Done: 0
+  - Step: 'Check GlobalGameManager & Re-write the Bad Arch Code
+
+
+'
+    Done: 0
+  - Step: 'Check ObjectManager
+
+
+
+'
+    Done: 0
+  - Step: 'Check All UI Elements & Scripts
+
+
+
+'
+    Done: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d8ba97e370d38840852c300e1ff174e, type: 3}
+  m_Name: Game Plan
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 8921161186825487200}
+  - {fileID: -5945013946739786773}
+  - {fileID: 2597672312952574560}
+  - {fileID: 2932559336703473255}
+  - {fileID: 2512986306527434425}
+  - {fileID: -6446871117330166441}
+  - {fileID: 8205141740979095100}
+  - {fileID: 8174864632831882383}
+  - {fileID: 6065637916958257216}
+  - {fileID: -1397265257111878176}
+  - {fileID: 8140037929559588169}
+  - {fileID: 4258045629751115135}
+  - {fileID: -3392098824972671893}
+  - {fileID: -8121775650135160127}
+  - {fileID: -6415300613783557066}
+  - {fileID: 3534904127742174092}
+  - {fileID: 5972127110405487265}
+  start: {fileID: 8921161186825487200}
+  current: {fileID: 0}
+  initNode: {fileID: 8921161186825487200}
+--- !u!114 &2512986306527434425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab22a863595c84648990fd330c4faa20, type: 3}
+  m_Name: Plan
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 104, y: -1784}
+  ports:
+    keys:
+    - input
+    - Milestones
+    - Milestones 0
+    - Milestones 1
+    - Milestones 2
+    - Milestones 3
+    values:
+    - _fieldName: input
+      _node: {fileID: 2512986306527434425}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Milestones 2
+        node: {fileID: 2597672312952574560}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Milestones
+      _node: {fileID: 2512986306527434425}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Milestones 0
+      _node: {fileID: 2512986306527434425}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Milestones 1
+      _node: {fileID: 2512986306527434425}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Milestones 2
+      _node: {fileID: 2512986306527434425}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Milestones 3
+      _node: {fileID: 2512986306527434425}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Plan: World Design
+  Milestones:
+  - Step: Re-Creating World
+    Done: 0
+  - Step: Lighting & Lightmaps Baking
+    Done: 0
+  - Step: Animal AI Spawn Points
+    Done: 0
+  - Step: Add Health & Vitals pickups for the player
+    Done: 0
+  Completed: 0
+--- !u!114 &2597672312952574560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab22a863595c84648990fd330c4faa20, type: 3}
+  m_Name: Plan
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1016, y: -440}
+  ports:
+    keys:
+    - input
+    - Milestones
+    - Milestones 0
+    - Milestones 1
+    - Milestones 2
+    - Milestones 3
+    - Milestones 4
+    - Milestones 5
+    - Milestones 6
+    values:
+    - _fieldName: input
+      _node: {fileID: 2597672312952574560}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: exit
+        node: {fileID: 8921161186825487200}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Milestones
+      _node: {fileID: 2597672312952574560}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Milestones 0
+      _node: {fileID: 2597672312952574560}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -5945013946739786773}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Milestones 1
+      _node: {fileID: 2597672312952574560}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Milestones 2
+      _node: {fileID: 2597672312952574560}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 2512986306527434425}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Milestones 3
+      _node: {fileID: 2597672312952574560}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Milestones 4
+      _node: {fileID: 2597672312952574560}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 2932559336703473255}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Milestones 5
+      _node: {fileID: 2597672312952574560}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Milestones 6
+      _node: {fileID: 2597672312952574560}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Plan: Project Timeline
+  Milestones:
+  - Step: Programming
+    Done: 0
+  - Step: Animals Creation
+    Done: 0
+  - Step: Re - World Design
+    Done: 0
+  - Step: Sounds & FX
+    Done: 0
+  - Step: Testing
+    Done: 0
+  - Step: Create Cinematics
+    Done: 0
+  - Step: Building & Deploying
+    Done: 0
+  Completed: 0
+--- !u!114 &2932559336703473255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab22a863595c84648990fd330c4faa20, type: 3}
+  m_Name: Plan
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -536, y: 680}
+  ports:
+    keys:
+    - input
+    - Milestones
+    - Milestones 0
+    - Milestones 1
+    - Milestones 2
+    - Milestones 3
+    - Milestones 4
+    - Milestones 5
+    values:
+    - _fieldName: input
+      _node: {fileID: 2932559336703473255}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Milestones 4
+        node: {fileID: 2597672312952574560}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Milestones
+      _node: {fileID: 2932559336703473255}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Milestones 0
+      _node: {fileID: 2932559336703473255}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 8205141740979095100}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Milestones 1
+      _node: {fileID: 2932559336703473255}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6065637916958257216}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Milestones 2
+      _node: {fileID: 2932559336703473255}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -1397265257111878176}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Milestones 3
+      _node: {fileID: 2932559336703473255}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -3392098824972671893}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Milestones 4
+      _node: {fileID: 2932559336703473255}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -8121775650135160127}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Milestones 5
+      _node: {fileID: 2932559336703473255}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -6415300613783557066}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Plan: On Mechanics Implement
+  Milestones:
+  - Step: AI & Bots
+    Done: 0
+  - Step: Camera
+    Done: 0
+  - Step: Core Mechanics
+    Done: 0
+  - Step: Player Mechanics
+    Done: 0
+  - Step: Weapons Mechanics
+    Done: 0
+  - Step: World Interaction
+    Done: 0
+  Completed: 0
+--- !u!114 &3534904127742174092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ed341661cc73448b9dfacf9e42428, type: 3}
+  m_Name: Step
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 376, y: 776}
+  ports:
+    keys:
+    - input
+    - Steps
+    - Steps 0
+    values:
+    - _fieldName: input
+      _node: {fileID: 3534904127742174092}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Steps 1
+        node: {fileID: -3392098824972671893}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps
+      _node: {fileID: 3534904127742174092}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps 0
+      _node: {fileID: 3534904127742174092}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Steps:
+  - Step: fix Pressing Space / Jumping getting player out of vehicle
+    Done: 1
+--- !u!114 &4258045629751115135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ed341661cc73448b9dfacf9e42428, type: 3}
+  m_Name: Step
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 344, y: 392}
+  ports:
+    keys:
+    - input
+    - Steps
+    - Steps 0
+    values:
+    - _fieldName: input
+      _node: {fileID: 4258045629751115135}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Steps 4
+        node: {fileID: -1397265257111878176}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps
+      _node: {fileID: 4258045629751115135}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps 0
+      _node: {fileID: 4258045629751115135}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Steps:
+  - Step: Fix StatusUI Active Medicines Prefabs
+    Done: 1
+--- !u!114 &5972127110405487265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ed341661cc73448b9dfacf9e42428, type: 3}
+  m_Name: Step
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 344, y: 2120}
+  ports:
+    keys:
+    - input
+    - Steps
+    - Steps 0
+    values:
+    - _fieldName: input
+      _node: {fileID: 5972127110405487265}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Steps 4
+        node: {fileID: -8121775650135160127}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps
+      _node: {fileID: 5972127110405487265}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps 0
+      _node: {fileID: 5972127110405487265}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Steps:
+  - Step: Blocked Aim IK
+    Done: 0
+--- !u!114 &6065637916958257216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ed341661cc73448b9dfacf9e42428, type: 3}
+  m_Name: Step
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 88, y: -232}
+  ports:
+    keys:
+    - input
+    - Steps
+    - Steps 0
+    values:
+    - _fieldName: input
+      _node: {fileID: 6065637916958257216}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Milestones 1
+        node: {fileID: 2932559336703473255}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps
+      _node: {fileID: 6065637916958257216}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps 0
+      _node: {fileID: 6065637916958257216}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Steps:
+  - Step: Fix Camera Wall Clipping
+    Done: 0
+--- !u!114 &8140037929559588169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ed341661cc73448b9dfacf9e42428, type: 3}
+  m_Name: Step
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 344, y: 168}
+  ports:
+    keys:
+    - input
+    - Steps
+    - Steps 0
+    values:
+    - _fieldName: input
+      _node: {fileID: 8140037929559588169}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Steps 3
+        node: {fileID: -1397265257111878176}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps
+      _node: {fileID: 8140037929559588169}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps 0
+      _node: {fileID: 8140037929559588169}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Steps:
+  - Step: Fix Non Poolable Prefabs
+    Done: 0
+--- !u!114 &8174864632831882383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ed341661cc73448b9dfacf9e42428, type: 3}
+  m_Name: Step
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 488, y: -696}
+  ports:
+    keys:
+    - input
+    - Steps
+    - Steps 0
+    values:
+    - _fieldName: input
+      _node: {fileID: 8174864632831882383}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Steps 2
+        node: {fileID: 8205141740979095100}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps
+      _node: {fileID: 8174864632831882383}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps 0
+      _node: {fileID: 8174864632831882383}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Steps:
+  - Step: Fix Needs System & Satisfy Areas Triggers
+    Done: 1
+--- !u!114 &8205141740979095100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ed341661cc73448b9dfacf9e42428, type: 3}
+  m_Name: Step
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 88, y: -776}
+  ports:
+    keys:
+    - input
+    - Steps
+    - Steps 0
+    - Steps 1
+    - Steps 2
+    - Steps 3
+    values:
+    - _fieldName: input
+      _node: {fileID: 8205141740979095100}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Milestones 0
+        node: {fileID: 2932559336703473255}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps
+      _node: {fileID: 8205141740979095100}
+      _typeQualifiedName: System.Collections.Generic.List`1[[CustomStep, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0,
+        Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Steps 0
+      _node: {fileID: 8205141740979095100}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 1
+      _node: {fileID: 8205141740979095100}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 2
+      _node: {fileID: 8205141740979095100}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 8174864632831882383}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Steps 3
+      _node: {fileID: 8205141740979095100}
+      _typeQualifiedName: CustomStep, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -6446871117330166441}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  Steps:
+  - Step: Zombie AI
+    Done: 1
+  - Step: Boss AI
+    Done: 1
+  - Step: Animal AI
+    Done: 1
+  - Step: Human AI
+    Done: 0
+--- !u!114 &8921161186825487200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f4a7d20c1aae54e9353afc08ae9d55, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1288, y: -424}
+  ports:
+    keys:
+    - exit
+    values:
+    - _fieldName: exit
+      _node: {fileID: 8921161186825487200}
+      _typeQualifiedName: Connection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 2597672312952574560}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
