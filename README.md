@@ -127,4 +127,4 @@
 
 
 ### Project almost customizable on all aspects
-[[Documentation]] Included (Outdated but still functional)
+[Documentation](Assets/BLOODLINES/Documentation.pdf) Included (Outdated but still functional)
